@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+
+}
+
+.form-container {
+    background-color: #f8f9fa;
+    color: #212529;            
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem
+}
+
+.theme-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/*alto contraste */
+.alto-contraste {
+  background-color: fuchsia !important;
+  color: yellow !important;
+  border: 2px solid rgb(15, 15, 15) !important;
+}
+
+.alto-contraste input,
+.alto-contraste select,
+.alto-contraste button {
+  background-color: rgb(252, 246, 246) !important;
+  color: rgb(10, 10, 10) !important;
+  border: 2px solid rgb(15, 15, 15) !important;
+}
+
+.alto-contraste label {
+  color: yellow !important;
+}
+
+.alto-contraste option {
+  background-color: black;
+  color: yellow;
+}
